@@ -1,0 +1,72 @@
+/*hero*/
+
+:root{
+--titulo:#795548;
+--barra_navegacion:#9e9e9e;
+--ancho_pantalla:1200px;
+
+
+}
+
+
+.hero {
+  background-image: url(../img/soldador3.jpg);
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.hero::after {
+  /* pseudoelemento */
+  content: "";/*no va nada por que pondre lo negro*/
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute; /* si pones absolute el padre relative */
+  top: 0;/*es para aumentar la dencidad de lo negro*/
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.contenedor_hero {
+  width: 95%;
+  max-width: var(--ancho_pantalla);
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;/*de arrba hacia abajo*/
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;/*para que se vea encima*/
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.foto {
+  background-image: url(../img/logo.ico);
+  background-position: center;
+  background-size: cover;/*hace que se vea bien en su contenedor*/
+  width: 200px;
+  height: 200px;
+  opacity:0.65;
+}
+
+.descripcion p{
+
+  font-size: 2rem
+}
+
+.redes_sociales i {
+  font-size: 6rem;
+  color:blanchedalmond;
+  margin-right: 2rem;
+}
+
+.redes_sociales i:hover {
+  
+  transform: scale(1.5);
+}
+
+

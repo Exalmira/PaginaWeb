@@ -1,0 +1,74 @@
+/*nosotros*/
+
+
+:root{
+--titulo:#795548;
+--barra_navegacion:#9e9e9e;
+--ancho_pantalla:1200px;
+
+
+}
+
+
+.imagen_fondo_form2{
+	
+	background-image:url(../img/Franca%20Scrolling%20Metal%20Wall%20Art.jpeg);
+	height:auto;
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	position:relative;
+	
+}
+
+.nosotros{
+display:grid;
+grid-template-columns:repeat(1,1fr);
+justify-content: center;
+align-items:center;
+
+}
+.nosotros h3{
+	text-align:center;
+	margin: 2rem auto;
+	font-size:3rem;
+	}
+
+@media(min-width:768px){
+
+  .nosotros{
+    grid-template-columns:repeat(3,1fr);
+   grid-gap:2rem;
+  }
+  
+
+}
+
+
+.n{
+	margin:1rem;
+	padding:1.5rem;
+	background-color:#CC9;
+	border-radius:15%;
+	height:230px;
+}
+.n p{
+	text-align:justify;
+	font-size: 1.8rem;
+	
+}
+
+.contenedor {
+  
+  max-width: var(--ancho_pantalla);
+  width: 95%;
+  margin: 0 auto;
+  
+}
+.fondo_h2{
+	background-color:#C96;
+	text-align:center;
+	padding:2rem;
+	letter-spacing:2rem;
+}

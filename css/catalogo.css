@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*catalogo*/
+
+.lista_catalogo h2{
+	font-size:20px;
+	color:white;
+	margin:15px;
+	text-transform: uppercase;
+}
+.carrera{
+width: 30rem;
+	
+
+
+}
+.carrera article{
+	position:absolute;
+	visibility:hidden;
+	
+	
+}
+.carrera:hover article{
+	visibility: visible;
+	top:200px;
+	left:250px;
+	right: 10px;
+	
+}
+.carrera article img{
+	box-shadow: 0 0 10px  black;
+	padding:1rem;
+	height: 15rem;
+	right:20rem;
+	
+}
+@media(min-width:768px){
+	.carrera article img{
+
+		height: 30rem;
+		width: 30rem;
+	}
+
+}
+
+
+
+
+#cerra{
+	padding:1rem;
+	width:10rem;
+	
+}
+#cerra a{
+	background-color:black;
+	color:white;
+	padding:1rem;
+	font-size: 2rem;
+	float:left;
+	width: 185px;/*anco de cuadro*/
+	margin:2rem;
+	text-align: center;
+}
+
+
+
+
+.imagen_fondo_form3{
+	background-image:url(../img/No%20hay%20descripci%C3%B3n%20de%20la%20foto%20disponible_.jpeg);
+	height:700px;/*cambiar a auto*/
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	position:relative;
+}
+
+	
+
+	
+
+.contenedor {
+  
+  max-width: var(--ancho_pantalla);
+  width: 95%;
+  margin: 0 auto;
+  
+}
+
+
+
+
+ 
+
